@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/add-to-project@main
         with:
-          project-url: https://github.com/users/treasuryguild/projects/1
+          project-url: https://github.com/orgs/treasuryguild/projects/1
           github-token: ${{ secrets.PAT }}
           labeled: Meeting, ADA Due, F8 Automate Educate Communicate
