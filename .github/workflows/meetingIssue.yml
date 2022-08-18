@@ -55,7 +55,7 @@ jobs:
 
     # Generates and pins new first responder issue, closes previous, writes linking comments, assigns to next person in line, adds to organization project number 550, column name "Duties", milestone number 10
     - name: Todays date
-      run: echo "TODAY=$(date -d '1 days' '+ %A, %dth %B, %Y')" >> $GITHUB_ENV
+      run: echo "TODAY=$(date -d '2 days' '+ %A, %dth %B, %Y')" >> $GITHUB_ENV
     - name: New first responder issue
       uses: imjohnbo/issue-bot@v3
       with:
