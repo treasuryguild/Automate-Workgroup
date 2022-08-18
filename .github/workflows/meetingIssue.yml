@@ -66,7 +66,6 @@ jobs:
         body: ${{ steps.issue-message-creator.outputs.value }} 
           
         project: 1  # The project-number from organization project https://github.com/orgs/org/projects/project-number
-        column: In progress
         pinned: false
         close-previous: true
         linked-comments: true
