@@ -5,8 +5,8 @@ name: First Responder
 on:
   workflow_dispatch:
   schedule:
-  # 22h00 UTC Wed and Sat – https://crontab.guru
-  - cron: 0 22 * * 3,6
+  # 22h00 UTC Tue and Sat – https://crontab.guru
+  - cron: 0 22 * * 2,6
 env: 
   Org: "treasuryguild" 
   Repo: "Treasury-Advisory-Service"
