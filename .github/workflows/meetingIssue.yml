@@ -9,7 +9,7 @@ on:
   - cron: 0 22 * * 6
 env: 
   Org: "treasuryguild" 
-  Repo: "Treasury-Advisory-Service"
+  Repo: "Automate-Workgroup"
   Labels: "Meeting"
   
 jobs:
