@@ -8,7 +8,7 @@ on:
   # 22h00 UTC Tue and Sat – https://crontab.guru
   - cron: 0 22 * * 6
 env: 
-  Org: "treasuryguild" 
+  Org: "Automate-Workgroup" 
   Repo: "Automate-Workgroup"
   Labels: "Meeting"
   
