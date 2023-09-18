@@ -1,1 +1,1 @@
-# Training-and-Automation-Coordination
+# Automate Workgroup Project Board repo
