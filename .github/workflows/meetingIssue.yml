@@ -4,9 +4,9 @@
 name: Auto Meeting Agenda creator
 on:
   workflow_dispatch:
-  schedule:
+  #schedule:
   # 22h00 UTC Tue and Sat – https://crontab.guru
-  - cron: 0 22 * * 6
+  #- cron: 0 22 * * 6
 env: 
   Org: "Automate-Workgroup" 
   Repo: "Automate-Workgroup"
